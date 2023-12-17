@@ -171,6 +171,7 @@ done
 # Check for leaks after all tests are done
 check_leaks "${test_lists[*]}"
 
+echo "Killing minishell in the background..."
 pkill -f minishell
 
 chmod 666 ./test_files/invalid_permission
