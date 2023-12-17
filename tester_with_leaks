@@ -66,7 +66,8 @@ if [ -n "$minishelll_pid" ]; then
 	echo -e "\n"
 else
 	echo "$binaryy_name is not running."
-	echo "Do './minishell&' to start minishell (don't compile with sanitize"
+	echo "Do './minishell&' to start minishell (don't compile with sanitize)"
+	echo "Or just run minishell regularly and keep it open"
 	exit 1
 fi
 
